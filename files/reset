@@ -1,0 +1,21 @@
+<?php
+
+ini_set("display_errors", "On");
+error_reporting(E_ALL);
+
+include_once(realpath(dirname(__FILE__)) . "/FileManager.php");
+
+FileManager::resetFile("active.json", "active_reset.json");
+FileManager::resetFile("messages.json", "messages_reset.json");
+FileManager::resetFile("streams.json", "streams_reset.json");
+
+$time = time();
+$date = new DateTime();
+$date->setTimestamp($time);
+
+$referer = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : "N/A";
+$agent = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : "N/A";
+
+file_put_contents(realpath(dirname(__FILE__)) . "/events.txt", $date->format("l, j F Y G:i") . " - Referer: $referer - Agent: $agent\n", FILE_APPEND);
+
+?>
