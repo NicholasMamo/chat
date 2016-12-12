@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="64px"
+	 height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<g id="Users">
+	<g id="Body" display="none">
+		<g display="inline">
+			<circle fill="#050505" cx="31.875" cy="21.375" r="8.8"/>
+			<path fill="#050505" d="M32,64h20c0-20.875-4.426-38.193-10-38.193c0,0-3.5,6.193-10,5.868C25.5,32,22,25.807,22,25.807
+				c-5.575,0-9.5,17.318-9.5,38.193H32z"/>
+		</g>
+	</g>
+</g>
+<g id="Arrow">
+</g>
+<g id="Streams">
+</g>
+<g id="Clean__x28_320_x__x_480_x29_">
+	<g>
+		<path fill="#FBFBFB" d="M39.989,16.256c0,4.584-3.702,8.287-8.272,8.287c-4.568,0-8.272-3.703-8.272-8.287
+			c0-4.553,3.704-8.256,8.272-8.256C36.287,8,39.989,11.703,39.989,16.256z"/>
+		<path fill="#FBFBFB" d="M31.836,56H47.63c0-19.54,6.987-29.856-15.794-29.856C9.117,26.144,16.509,36.46,16.509,56H31.836z"/>
+	</g>
+</g>
+</svg>
